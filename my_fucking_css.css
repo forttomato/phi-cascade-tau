@@ -1,0 +1,230 @@
+html{
+	width:100%;
+	padding:0;
+	margin:0;
+	background-color:#FDFFFF;
+}
+
+body{
+	width:100%;
+	padding:0;
+	margin:0;
+}
+
+h1{
+	padding: 5px;
+}
+
+p{
+	padding:5px;
+}
+
+/*pkt header/banner */
+
+header{
+	background-color: #FDFFFF ;
+	margin:0;
+	margin-bottom:5px;
+	padding:0;
+	height:150px;
+	text-align:center;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Crimson Text', serif;
+
+
+}
+
+.head_text{
+	width:60%;
+	color:#990012;
+	font-size: 80px;
+	padding:0px;
+	margin-top:100px;
+	border-bottom-style:solid;
+	border-bottom-color: #990012;
+	border-bottom-width: 3px;
+	border-top-style:solid;
+	border-top-color: #990012;
+	border-top-width: 3px;
+	box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+	/*text-shadow: -1.5px 0px 0px #CFB53B, 0px 1.5px 0px #CFB53B, 1.5px 0px 0px #CFB53B, 0px -1.5px 0px #CFB53B;*/
+}
+
+/*here is the css for the nemu*/
+
+
+.menu {
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	height:50px;
+	background-color:#990012;
+	
+	
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: 0px;
+	font-family: 'ariel', sans-serif;
+	font-size: 20px;
+	width:100%;
+	box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.2);
+	position:sticky;
+	top:0px;
+
+
+	
+	
+}
+
+ul{
+	list-style: none;
+
+}
+
+
+
+.clicky_boi{
+	display:flex;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	height:100%;
+	padding-left:0;
+	padding-right:0;
+	background-color:#990012;
+	text-align: center;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Crimson Text', serif;
+	font-weight:normal;
+	font-size: 25px;
+
+}
+
+.clicky_boi:hover{
+	background-color: #b30015;
+	
+}
+
+.boi_link:link {
+	color:#F7F7F7;
+	text-decoration: none;
+
+}
+
+.boi_link:visited{
+	color:#F7F7F7;
+	text-decoration: none;
+}
+
+/*css for the body paragraphs and headers*/
+
+.body_text{
+	width:80%;
+	margin-left:10%;
+	margin-right: :10%;
+	margin-bottom:1%;
+	font-family: 'Crimson Text', serif;
+	color:#404040;
+	background-color: #FDFFFF;
+	box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-right-style: solid;
+	border-left-style: solid;
+	border-radius: 1px;
+	border-color: #F0F0F0;
+	
+}
+
+
+
+.body_par{
+	
+	
+	font-family: 'Crimson Text', serif;
+	font-size:18px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom:1%;
+	margin-top: 0px;
+	margin-bottom:0px;
+
+}
+
+
+.body_header{
+	width: 80%;
+	font-size: 50px;
+	padding:0;
+	margin-left: 20px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	border-bottom-width: 1.5px;
+	font-weight: normal;
+}
+/*css for brother bios*/
+
+.brother_l{
+	display:flex;
+	width: 90%;
+	
+	margin-left:5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom:1%;
+	justify-content: center;
+	box-shadow: 0px 4px 6px 0 rgba(0, 0, 0, 0.2);
+	font-family: 'Crimson Text', serif;
+	background-color:#FDFFFF;
+
+
+}
+
+.bro_pic{
+	height:200px;
+	width:200px;
+	border-style: solid;
+	border-color:#990012;
+	border-width: 3.5px;
+	border-radius:200px;
+	margin:20px;
+}
+
+.bio{
+	width:70%;
+	margin:1px;
+	display:flex;
+	flex-direction:column;
+}
+
+.bro_name{
+	width:90%;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color:black;
+}
+
+/*css for flipped bio style*/
+
+.brother_r{
+	display:flex;
+	flex-direction: row-reverse;
+	width: 90%;
+	margin-top: 5%;
+	margin-left:5%;
+	margin-right: 5%;
+	margin-bottom:1%;
+	justify-content: center;
+	box-shadow: 0px 4px 6px 0 rgba(0, 0, 0, 0.2);
+	font-family: 'Crimson Text', serif;
+	background-color:#FDFFFF;
+}
+
+.donate{
+	width:70%;
+	margin:15%;
+}
+
+
